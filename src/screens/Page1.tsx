@@ -27,10 +27,10 @@ const Page1 = ({navigation}: Props) => {
           style={styles.btn}
           onPress={() =>
             navigation.navigate('Person', {
-              name: 'Pedro',
+              name: 'Juan',
             })
           }>
-          <Text style={styles.btnText}>Pedro</Text>
+          <Text style={styles.btnText}>Juan</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
